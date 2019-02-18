@@ -43,3 +43,12 @@ use commend tsc --outputFiles to create a single file
 
 ## Lesson 8
 More example on nameSpace - use import to get child of namespace
+
+## Lesson 9
+Modules
+
+## Lesson 10
+Interfaces
+
+## Lesson 11
+Generic Types
