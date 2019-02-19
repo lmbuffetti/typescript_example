@@ -92,6 +92,10 @@ class MyMap<T> {
         return this.data[key];
     }
 
+    clear() {
+        this.data = {};
+    }
+
     printMap() {
         for (let key in this.data) {
             console.log(key, this.data[key]);
@@ -101,7 +105,7 @@ class MyMap<T> {
 const numberMap = new MyMap<number>();
 numberMap.setItem('apples', 5);
 numberMap.setItem('bananas', 10);
-console.log(numberMap.getItem('bananas'))
+console.log(numberMap.getItem('bananas'));
 numberMap.printMap();
 
 const stringMap = new MyMap<string>();
