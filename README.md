@@ -52,3 +52,17 @@ Interfaces
 
 ## Lesson 11
 Generic Types
+
+## Lesson 12
+Behind the Scenes with Decorators
+
+## Lesson 13
+Typescript and JQuery
+
+Run "npm install" to install the required dependencies
+
+Run "typings" to install the required typings (needs the "typings" package to be installed on your machine => "npm install typings -g")
+
+Run "tsc" to compile the TypeScript code
+
+Run "npm start" to run the development server (lite-server)
