@@ -99,3 +99,8 @@ Run "typings" to install the required typings (needs the "typings" package to be
 Run "npm run build" to compile the TypeScript code
 
 Run "npm start" to run the development server (lite-server)
+
+## Resources
+The official TypeScript Documentation 
+
+http://www.typescriptlang.org/
