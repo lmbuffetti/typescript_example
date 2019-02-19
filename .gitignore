@@ -6,3 +6,5 @@
 /*/package-lock.json
 /*/.gitingore
 /*/README.md
+!*.config.js
+!gulpfile.js
