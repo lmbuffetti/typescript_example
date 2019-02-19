@@ -88,3 +88,14 @@ Run "typings" to install the required typings (needs the "typings" package to be
 Run "npm run build" to compile the TypeScript code and start Webpack Watcher
 
 Run "npm start" to run the development server (lite-server)
+
+## Lesson 16
+Typescript and React
+
+Run "npm install" to install the required dependencies
+
+Run "typings" to install the required typings (needs the "typings" package to be installed on your machine => "npm install typings -g")
+
+Run "npm run build" to compile the TypeScript code
+
+Run "npm start" to run the development server (lite-server)

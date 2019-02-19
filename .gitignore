@@ -4,3 +4,5 @@
 /*/yarn.lock
 *.js
 /*/package-lock.json
+/*/.gitingore
+/*/README.md
