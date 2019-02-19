@@ -8,7 +8,7 @@ let bankAccount: BankAccount = {
 };
 
 let myself: {name: string, bankAccount: BankAccount, hobbies: string[] } = {
-    name: 'Max',
+    name: 'John',
     bankAccount: bankAccount,
     hobbies: ["Sports", "Cooking"],
 };

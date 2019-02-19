@@ -3,24 +3,24 @@ function echo(data: any) {
     return data;
 }
 
-console.log(echo("Max"));
-console.log(echo("Max").length); //3
+console.log(echo("John"));
+console.log(echo("John").length); //3
 console.log(echo(27));
 console.log(echo(27).length); // undefined
-console.log(echo({name: "Max", age: 27}));
-console.log(echo({name: "Max", age: 27}).length); // undefined
+console.log(echo({name: "John", age: 27}));
+console.log(echo({name: "John", age: 27}).length); // undefined
 
 // Better Generic
 function betterEcho<T>(data: T) { // <T> tells to typescript that is generic and get the type
     return data;
 }
 
-console.log(betterEcho("Max"));
-console.log(betterEcho("Max").length); //3
+console.log(betterEcho("John"));
+console.log(betterEcho("John").length); //3
 console.log(betterEcho(27));
 // console.log(betterEcho(27).length); // get error
-console.log(betterEcho({name: "Max", age: 27}));
-//console.log(betterEcho({name: "Max", age: 27}).length); // get error
+console.log(betterEcho({name: "John", age: 27}));
+//console.log(betterEcho({name: "John", age: 27}).length); // get error
 
 // Built-in Generics
 const testResults: Array<number> = [1.94, 2.33];
@@ -109,7 +109,7 @@ console.log(numberMap.getItem('bananas'));
 numberMap.printMap();
 
 const stringMap = new MyMap<string>();
-stringMap.setItem('name', "Max");
+stringMap.setItem('name', "John");
 stringMap.setItem('age', "27");
 stringMap.printMap();
 stringMap.clear();

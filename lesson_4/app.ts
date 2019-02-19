@@ -3,7 +3,7 @@ const double = (value: number) => value * 2;
 console.log(double(10));
 
 // Exercise 2 - If only we could provide some default values...
-const greet = (name: string = 'Max') => console.log("Hello, " + name);
+const greet = (name: string = 'John') => console.log("Hello, " + name);
 greet();
 greet("Anna");
 

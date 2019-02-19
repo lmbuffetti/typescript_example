@@ -4,7 +4,7 @@ let myName = 'Mattia';
 
 // number
 let myAge = 33;
-// myAge = 'Max';
+// myAge = 'John';
 
 let hasHobbies = true;
 // hasHobbies = 1;

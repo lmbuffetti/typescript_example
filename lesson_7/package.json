@@ -1,13 +1,13 @@
 {
-  "name": "test_2",
+  "name": "typescript",
   "version": "1.0.0",
-  "description": "",
+  "description": "TypeScript Example",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "lite-server"
   },
-  "author": "",
+  "author": "Luigi Mattia Buffetti",
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.4.0"

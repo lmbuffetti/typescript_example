@@ -56,7 +56,7 @@ class Person {
 }
 const person = new Person();
 console.log(person.firstName);
-person.firstName = "Ma";
+person.firstName = "Jo";
 console.log(person.firstName);
-person.firstName = "Maximilian";
+person.firstName = "John";
 console.log(person.firstName);

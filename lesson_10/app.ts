@@ -14,7 +14,7 @@ function changeName(person: NamedPerson) {
 }
 
 const person: NamedPerson = {
-    firstName: 'Max',
+    firstName: 'John',
     age: 27,
     hobbies: ["Cooking", "Sports"],
     greet(lastName: string): void {
@@ -36,8 +36,8 @@ class Person implements NamedPerson {
 }
 
 const myPerson = new Person();
-myPerson.firstName = "Maximilian";
-myPerson.lastName = "John";
+myPerson.firstName = "John";
+myPerson.lastName = "Doe";
 greet(myPerson);
 myPerson.greet(myPerson.lastName);
 
@@ -63,7 +63,7 @@ interface AgedPerson extends NamedPerson {
 
 const oldPerson: AgedPerson = {
   age: 27,
-  firstName: "Max",
+  firstName: "John",
   greet(lastName: string): void {
       console.log("Hello")
   }
