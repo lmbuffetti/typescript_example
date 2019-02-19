@@ -112,3 +112,5 @@ const stringMap = new MyMap<string>();
 stringMap.setItem('name', "Max");
 stringMap.setItem('age', "27");
 stringMap.printMap();
+stringMap.clear();
+stringMap.printMap();
